@@ -1,1 +1,1 @@
-# Calculadora_de_Gorjetas
+# Calculadora de Gorjetas
