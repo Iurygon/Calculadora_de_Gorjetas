@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E0FFFF;
+    font-family: 'Space Mono', sans-serif;
+    width: 100%;
+}
+
+.conteiner_principal{
+    background-color: #FFFFFF;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    min-width: 400px;
+}
+
+.formulario{
+    width: 40%;
+    min-width: 350px;
+}
+
+.gorjeta > h2{
+    background-color: #002A2A;
+}
+
+.resumo{
+    background-color: #002A2A;
+    width: 40%;
+    min-width: 350px;
+    border-radius: 15px;
+}
