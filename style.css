@@ -4,3 +4,20 @@
     padding: 0;
     display: block;
 }
+
+body{
+    background-color: #E0FFFF;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.conteiner_principal{
+    background-color: #FFFFFF;
+}
+
+.gorjeta > h2{
+    background-color: #002A2A;
+}
+
+.resumo{
+    background-color: #002A2A;
+}
