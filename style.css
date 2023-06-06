@@ -73,21 +73,26 @@ input{
 
 .resumo h3{
     color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px 0 0 20px;
 }
 
 .resumo p{
-    color: #677c67
+    color: #677c67;
+    font-size: 15px;
+    margin: 0 0 0 20px;
 }
 
 .resumo h1{
     color:#02d4d4;
     font-weight: bold;
+    right: 30px;
 }
 
 .resumo h2{
-    width: 300px;
     background-color: #008f8f;
-    border-radius: 5px;
+    width: 300px;
     text-align: center;
     margin: auto;
+    border-radius: 5px;
 }
