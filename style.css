@@ -56,11 +56,38 @@ input{
     margin: 0 0 20px;
 }
 
-.gorjeta h2{
+.gorjeta h3{
     background-color: #005757;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .resumo{
     background-color: #005757;
+    position: relative;
     border-radius: 15px;
+    display: inline-block;
+}
+
+.resumo h3{
+    color: #FFFFFF;
+}
+
+.resumo p{
+    color: #677c67
+}
+
+.resumo h1{
+    color:#02d4d4;
+    font-weight: bold;
+}
+
+.resumo h2{
+    width: 300px;
+    background-color: #008f8f;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
 }
