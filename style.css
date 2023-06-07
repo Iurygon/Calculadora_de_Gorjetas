@@ -26,6 +26,8 @@ img{
     min-width: 400px;
 }
 
+/*ESTILOS DO FORMULÁRIO*/
+
 .formulario, .resumo{
     width: 40%;
     min-width: 350px;
@@ -44,10 +46,20 @@ input{
     min-width: 330px;
     display: block;
     padding: 8px;
-    border: solid 2px;
-    border-radius: 5px;
     margin: 8px 0 0;
+    text-align: end;
+    border-radius: 5px;
 }
+
+#conta{
+    background: url(imagens/icon-dollar.svg) no-repeat 5% #dffdfd;
+}
+
+#pessoas{
+    background: url(imagens/icon-person.svg) no-repeat 5% #dffdfd;
+}
+
+/*ESTILOS DA GORJETA*/
 
 .gorjeta{
     display: grid;
@@ -64,6 +76,8 @@ input{
     border-radius: 5px;
 }
 
+/* ESTILOS DO RESUMO */
+
 .resumo{
     background-color: #005757;
     position: relative;
@@ -73,13 +87,13 @@ input{
 
 .resumo h3{
     color: #FFFFFF;
-    font-size: 18px;
-    margin: 20px 0 0 20px;
+    font-size: 15px;
+    margin: 40px 0 0 20px;
 }
 
 .resumo p{
     color: #677c67;
-    font-size: 15px;
+    font-size: 11px;
     margin: 0 0 0 20px;
 }
 
@@ -87,12 +101,25 @@ input{
     color:#02d4d4;
     font-weight: bold;
     right: 30px;
+    position: absolute;
+}
+
+#tot_Gorjeta{
+    right: 30px;
+    top: 28px;
+}
+
+#tot_Conta{
+    right: 30px;
+    top: 107px;
 }
 
 .resumo h2{
     background-color: #008f8f;
     width: 300px;
+    margin: 80px auto;
+    padding: 5px 0;
     text-align: center;
-    margin: auto;
+    color: #005757;
     border-radius: 5px;
 }
