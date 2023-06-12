@@ -97,6 +97,7 @@ input{
     text-align: center;
     font-size: 25px;
     color: #005757;
+    margin: 0;
     border: 2px solid hsl(180, 37%, 97%);
 }
 
