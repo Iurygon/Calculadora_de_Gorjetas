@@ -34,6 +34,12 @@ input[type="number"]::placeholder{
     font-size: 20px;
     font-family: 'Space Mono', sans-serif;
 }
+
+input[type="number"]:hover{
+    border: 2px solid #008f8f;
+    transition: 0.5s;
+}
+
 /*ESTILOS DO FORMULÁRIO*/
 
 .formulario, .resumo{
@@ -42,7 +48,7 @@ input[type="number"]::placeholder{
 }
 
 .formulario, .resumo{
-    margin: 30px 0;
+    margin: 30px 20px;
 }
 
 .formulario p{
@@ -50,13 +56,16 @@ input[type="number"]::placeholder{
 }
 
 input{
+    font-family: 'Space Mono', sans-sefir;
     width: 40%;
-    min-width: 330px;
+    min-width: 350px;
     display: block;
     padding: 8px;
     margin: 8px 0 0;
     text-align: end;
+    font-size: 20px;
     border-radius: 5px;
+    border: 2px solid #FFFFFF;
 }
 
 #conta{
@@ -90,15 +99,28 @@ input{
     border-radius: 5px;
 }
 
+.gorjeta label:hover{
+    background: hsl(180, 100%, 93%);
+    color: #005757;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 #gorjeta_outro{
     background: hsl(180, 37%, 97%);
-    width: 95px;
+    width: 90px;
     min-width: 0;
     text-align: center;
     font-size: 25px;
     color: #005757;
     margin: 0;
     border: 2px solid hsl(180, 37%, 97%);
+}
+
+#gorjeta_outro:hover{
+    border: 2px solid #008f8f;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 #gorjeta_outro::placeholder{
@@ -143,7 +165,7 @@ input{
     top: 107px;
 }
 
-.resumo h2{
+#resetar{
     background-color: #008f8f;
     width: 300px;
     margin: 80px auto;
@@ -151,4 +173,10 @@ input{
     text-align: center;
     color: #005757;
     border-radius: 5px;
+}
+
+#resetar:hover{
+    background: hsl(180, 100%, 93%);
+    color: #005757;
+    transition: 0.5s;
 }
