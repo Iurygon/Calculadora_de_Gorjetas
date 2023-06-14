@@ -68,6 +68,11 @@ input{
     border: 2px solid #FFFFFF;
 }
 
+input:focus{
+    border: 2px solid #008f8f;
+    outline: 0;
+}
+
 #conta{
     background: url(imagens/icon-dollar.svg) no-repeat 5% #dffdfd;
 }
@@ -106,6 +111,11 @@ input{
     cursor: pointer;
 }
 
+.gorjeta input[type='radio']:checked+label{
+    background: hsl(180, 100%, 93%);
+    color: #005757;
+}
+
 #gorjeta_outro{
     background: hsl(180, 37%, 97%);
     width: 90px;
@@ -125,6 +135,11 @@ input{
 
 #gorjeta_outro::placeholder{
     font-size: 25px;
+}
+
+#gorjeta_outro:focus{
+    border: 2px solid #008f8f;
+    outline: 0;
 }
 
 /* ESTILOS DO RESUMO */
