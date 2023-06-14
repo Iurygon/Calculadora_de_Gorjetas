@@ -16,36 +16,36 @@
         
         <img src="imagens/logo.svg" alt="logo">
 
-        <div class="conteiner_principal">
+        <form class="conteiner_principal">
 
             <div class="formulario">
 
-                <label>Conta<input type="number" id="conta" placeholder="0,00"></label>
+                <label>Conta<input type="number" id="conta" placeholder="0,00" onkeyup="receberValor()"></label>
 
                 <p>Selecione a porcentagem da gorjeta</p>
 
                 <div class="gorjeta">
 
                     <input type="radio" id="gorjeta_5" name="porcentagem_gorjeta" value="5" hidden>
-                    <label for="gorjeta_5">5%</label>
+                    <label for="gorjeta_5" onmousedown="receberValor()">5%</label>
                     
                     <input type="radio" id="gorjeta_10" name="porcentagem_gorjeta" value="10" hidden>
-                    <label for="gorjeta_10">10%</label>
+                    <label for="gorjeta_10" onmousedown="receberValor()">10%</label>
 
                     <input type="radio" id="gorjeta_15" name="porcentagem_gorjeta" value="15" hidden>
-                    <label for="gorjeta_15">15%</label>
+                    <label for="gorjeta_15" onmousedown="receberValor()">15%</label>
 
                     <input type="radio" id="gorjeta_25" name="porcentagem_gorjeta" value="25" hidden>
-                    <label for="gorjeta_25">25%</label>
+                    <label for="gorjeta_25" onmousedown="receberValor()">25%</label>
 
                     <input type="radio" id="gorjeta_50" name="porcentagem_gorjeta" value="50" hidden>
-                    <label for="gorjeta_50">50%</label>
+                    <label for="gorjeta_50"  onmousedown="receberValor()">50%</label>
 
-                   <input type="number" placeholder="Outro" id="gorjeta_outro">
+                   <input type="number" placeholder="Outro" id="gorjeta_outro" onkeyup="receberValor()">
 
                 </div>
                 
-                <label>Número de Pessoas<input type="number" id="pessoas" placeholder="1"></label>
+                <label>Número de Pessoas<input type="number" id="pessoas" min="1" value="1" placeholder="1" onkeyup="receberValor()"></label>
 
             </div>
 
@@ -59,11 +59,11 @@
                 <p>/ pessoa</p>
                 <h1 id="tot_Conta">$0,00</h1>
 
-                <h2 id="resetar">Resetar</h2>
+                <input type="reset" id="resetar">
 
             </div>
 
-        </div>
+        </form>
 
     </body>
 </html>
