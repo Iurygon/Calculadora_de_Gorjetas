@@ -20,7 +20,7 @@
 
             <div class="formulario">
 
-                <label>Conta<input type="number" id="conta" placeholder="0,00" onkeyup="receberValor()"></label>
+                <label>Conta<input type="number" id="conta" placeholder="0,00" onkeyup="receberValorConta()"></label>
 
                 <p>Selecione a porcentagem da gorjeta</p>
 
@@ -41,11 +41,11 @@
                     <input type="radio" id="gorjeta_50" name="porcentagem_gorjeta" value="50" hidden>
                     <label for="gorjeta_50"  onmousedown="receberValor()">50%</label>
 
-                   <input type="number" placeholder="Outro" id="gorjeta_outro" onkeyup="receberValor()">
+                   <input type="number" placeholder="Outro" id="gorjeta_outro" onkeyup="receberValorGorjeta_Outro()">
 
                 </div>
                 
-                <label>Número de Pessoas<input type="number" id="pessoas" min="1" value="1" placeholder="1" onkeyup="receberValor()"></label>
+                <label>Número de Pessoas<input type="number" id="pessoas" min="1" value="1" placeholder="1" onkeyup="receberValorPessoas()"></label>
 
             </div>
 
