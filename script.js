@@ -1,3 +1,4 @@
+//Funções para receber valores digitados pelo usuário//
 function receberValorConta(){  
     var valorConta = document.getElementById("conta").value;
 }
@@ -10,6 +11,7 @@ function receberValorPessoas(){
     var numPessoas = document.getElementById("pessoas").value;
 }
 
+//Função para receber valor da gorjeta selecionado//
 function receberValorGorjeta(){
     var gorjeta_5 = document.getElementById("gorjeta_5").value;
     var gorjeta_10 = document.getElementById("gorjeta_10").value;
