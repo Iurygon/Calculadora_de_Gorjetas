@@ -17,7 +17,7 @@ img{
 
 .conteiner_principal{
     background-color: #FFFFFF;
-    max-width: 50%;
+    max-width: 55%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -53,6 +53,10 @@ input[type="number"]:hover{
 
 .formulario p{
     margin: 20px 0 10px;
+}
+
+.formulario{
+    padding-right: 20px;
 }
 
 input{

@@ -9,7 +9,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
-        <script src="script.js"></script>
 
     </head>
     <body>
@@ -27,19 +26,19 @@
                 <div class="gorjeta">
 
                     <input type="radio" id="gorjeta_5" name="porcentagem_gorjeta" value="5" hidden>
-                    <label for="gorjeta_5" onmousedown="receberValor()">5%</label>
+                    <label for="gorjeta_5" onclick="receberValorGorjeta()">5%</label>
                     
                     <input type="radio" id="gorjeta_10" name="porcentagem_gorjeta" value="10" hidden>
-                    <label for="gorjeta_10" onmousedown="receberValor()">10%</label>
+                    <label for="gorjeta_10" onclick="receberValorGorjeta()">10%</label>
 
                     <input type="radio" id="gorjeta_15" name="porcentagem_gorjeta" value="15" hidden>
-                    <label for="gorjeta_15" onmousedown="receberValor()">15%</label>
+                    <label for="gorjeta_15" onclick="receberValorGorjeta()">15%</label>
 
                     <input type="radio" id="gorjeta_25" name="porcentagem_gorjeta" value="25" hidden>
-                    <label for="gorjeta_25" onmousedown="receberValor()">25%</label>
+                    <label for="gorjeta_25" onclick="receberValorGorjeta()">25%</label>
 
                     <input type="radio" id="gorjeta_50" name="porcentagem_gorjeta" value="50" hidden>
-                    <label for="gorjeta_50"  onmousedown="receberValor()">50%</label>
+                    <label for="gorjeta_50"  onclick="receberValorGorjeta()">50%</label>
 
                    <input type="number" placeholder="Outro" id="gorjeta_outro" onkeyup="receberValorGorjeta_Outro()">
 
@@ -64,6 +63,8 @@
             </div>
 
         </form>
+
+        <script src="script.js"></script>
 
     </body>
 </html>
