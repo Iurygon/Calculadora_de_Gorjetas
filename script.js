@@ -13,6 +13,6 @@ function receberValorPessoas(){
 
 //Função para receber valor da gorjeta selecionado//
 function receberValorGorjeta(){
-    var valorGorjeta = document.forms['gorjeta'];
+    var valorGorjeta = document.querySelector('input[name="porcentagem_gorjeta"]:checked').value;
     document.getElementById('tot_Gorjeta').innerHTML = valorGorjeta;
 }
