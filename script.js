@@ -46,3 +46,17 @@ function receberValorGorjeta_Outro(){
     var gorjetaOutro = document.getElementById("gorjeta_outro").value;
     return gorjetaOutro;
 }
+
+//CÁLCULOS COM AS VARIÁVEIS//
+
+
+//EXIBE OS VALORES//
+//Exibe o valor total da gorjeta por pessoa//
+function exibeValorGorjeta(){
+    var totalGorjeta = document.getElementById('tot_Gorjeta');
+}
+
+//Exibe o valor total da conta por pessoa//
+function exibeValorConta(){
+    var totalConta = document.getElementById('tot_Conta');
+}
