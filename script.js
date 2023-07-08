@@ -1,3 +1,7 @@
+var exibeValorGorjeta = document.getElementById('tot_Gorjeta');
+var exibeValorConta = document.getElementById('tot_Conta');
+
+
 //Receber valor da conta//
 function receberValorConta(){  
     var valorConta = document.getElementById("conta").value;
@@ -10,7 +14,8 @@ function receberValorPessoas(){
     return numPessoas;
 }
 
-//Receber valor da gorjeta selecionada//
+//RECEBER O VALOR DA GORJETA SELECIONADA//
+
 //Recebe o valor do input de 5%//
 function receberValorGorjeta5(){
     var valorGorjeta_5 = document.getElementById("gorjeta_5").value;
@@ -45,18 +50,4 @@ function receberValorGorjeta50(){
 function receberValorGorjeta_Outro(){
     var gorjetaOutro = document.getElementById("gorjeta_outro").value;
     return gorjetaOutro;
-}
-
-//CÁLCULOS COM AS VARIÁVEIS//
-
-
-//EXIBE OS VALORES//
-//Exibe o valor total da gorjeta por pessoa//
-function exibeValorGorjeta(){
-    var totalGorjeta = document.getElementById('tot_Gorjeta');
-}
-
-//Exibe o valor total da conta por pessoa//
-function exibeValorConta(){
-    var totalConta = document.getElementById('tot_Conta');
 }
