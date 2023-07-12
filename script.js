@@ -23,8 +23,8 @@ function receberValorGorjeta5(conta, pessoas){
     valorTotalporPessoa = (conta * valorGorjeta_5) / pessoas;
     valorGorjetaporPessoa = (conta * valorGorjeta_5 - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
 
 //Recebe o valor do input de 10%//
@@ -34,8 +34,8 @@ function receberValorGorjeta10(conta, pessoas){
     valorTotalporPessoa = (conta * valorGorjeta_10) / pessoas;
     valorGorjetaporPessoa = (conta * valorGorjeta_10 - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
 
 //Recebe o valor do input de 15%//
@@ -45,8 +45,8 @@ function receberValorGorjeta15(conta, pessoas){
     valorTotalporPessoa = (conta * valorGorjeta_15) / pessoas;
     valorGorjetaporPessoa = (conta * valorGorjeta_15 - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
 
 //Recebe o valor do input de 25%//
@@ -56,8 +56,8 @@ function receberValorGorjeta25(conta, pessoas){
     valorTotalporPessoa = (conta * valorGorjeta_25) / pessoas;
     valorGorjetaporPessoa = (conta * valorGorjeta_25 - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
 
 //Recebe o valor do input de 50%//
@@ -67,17 +67,17 @@ function receberValorGorjeta50(conta, pessoas){
     valorTotalporPessoa = (conta * valorGorjeta_50) / pessoas;
     valorGorjetaporPessoa = (conta * valorGorjeta_50 - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
 
 //Recebe o valor do input digitado pelo usuário//
 function receberValorGorjeta_Outro(conta, pessoas){
     var gorjetaOutro = document.getElementById("gorjeta_outro").value;
 
-    valorTotalporPessoa = (conta * gorjetaOutro) / pessoas;
-    valorGorjetaporPessoa = (conta * gorjetaOutro - conta) / pessoas;
+    valorTotalporPessoa = (conta * (gorjetaOutro / 100 + 1)) / pessoas;
+    valorGorjetaporPessoa = (conta * (gorjetaOutro / 100 + 1) - conta) / pessoas;
 
-    exibeValorConta.innerHTML = valorTotalporPessoa;
-    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa;
+    exibeValorConta.innerHTML = valorTotalporPessoa.toFixed(2);
+    exibeValorGorjeta.innerHTML = valorGorjetaporPessoa.toFixed(2);
 }
