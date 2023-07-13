@@ -2,7 +2,7 @@
 A Calculadora de Gorjetas consiste em um projeto que permite ao usuário calcular o valor total de uma conta com base no número de pessoas, porcentagem de gorjeta e valor da conta.
 
 ## Screenshots
-![Imagem do Projeto](imagens/imagem_projeto)
+![Imagem do Projeto](imagens/imagem_projeto.png)
 
 ## Links
 Deploy: <https://iurygon.github.io/Calculadora_de_Gorjetas/>
